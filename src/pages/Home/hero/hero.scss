@@ -1,0 +1,95 @@
+.hero-container {
+  .main-container {
+    height: 100vh;
+    background-image: url(../hero/hero-img.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    .nav {
+      max-width: 1600px;
+      margin: auto;
+      .nav-main-home {
+        display: flex;
+        color: white;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 30px;
+        .logo {
+          display: flex;
+          align-items: center;
+          img {
+            height: 40px;
+            text-decoration: inherit;
+            color: hsl(357, 87%, 50%);
+            padding: 5px 25px;
+            border-right: 1px solid rgb(255, 255, 255);
+          }
+          .nav-search {
+            display: flex;
+            align-items: center;
+            margin-left: 25px;
+            span:hover {
+              cursor: pointer;
+              color: hsl(69, 94%, 69%);
+            }
+          }
+        }
+        .explore {
+          .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+
+            p {
+              background-color: hsl(37, 100%, 51%);
+              padding: 3px 10px 6px 10px;
+              border-radius: 50px;
+              border: 1px solid hsl(37, 100%, 50%);
+              cursor: pointer;
+            }
+            p:hover {
+              background-color: hsl(37, 98%, 59%);
+            }
+            span:hover {
+              cursor: pointer;
+              color: hsl(69, 94%, 69%);
+            }
+          }
+        }
+      }
+    }
+
+    .content {
+      .content-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 90vh;
+        h1 {
+          color: white;
+          font-size: 4.5rem;
+          font-weight: 700;
+          text-shadow: 2px 2px #595959;
+        }
+        span {
+          color: white;
+          font-size: 1.5rem;
+          text-align: center;
+          font-weight: 600;
+          padding: 10px 0 20px 0;
+        }
+        button {
+          background-color: hsl(37, 100%, 51%);
+          color: white;
+          font-size: 2.5rem;
+          padding: 3px 30px 8px 30px;
+          border-radius: 50px;
+          border: 1px solid hsl(37, 100%, 50%);
+          &:hover {
+            background-color: hsl(37, 98%, 59%);
+          }
+        }
+      }
+    }
+  }
+}

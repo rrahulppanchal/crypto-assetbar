@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  .login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: teal;
+    .main-login {
+      width: 350px;
+      background-color: rgb(223, 231, 238);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+        rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+      h1 {
+        text-align: center;
+        margin: 20px;
+        color: teal;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        input {
+          margin: 10px;
+          padding: 10px;
+        }
+        button {
+          background-color: teal;
+          color: white;
+          font-size: 20px;
+          width: 93%;
+          border: none;
+          border-radius: 5px;
+          margin: auto;
+          margin-top: 20px;
+          padding: 10px;
+          cursor: pointer;
+        }
+        span {
+          color: gray;
+          font-size: 13px;
+          text-align: center;
+          margin: 10px;
+        }
+      }
+    }
+  }
+}

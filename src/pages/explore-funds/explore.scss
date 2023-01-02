@@ -1,0 +1,81 @@
+.container {
+  max-width: 1600px;
+  margin: auto;
+  .main {
+    .explore-container {
+      hr {
+        border: none;
+        border-bottom: 5px solid rgb(194, 194, 194);
+        margin: 20px auto;
+      }
+      .explore-header {
+        background-image: url(https://www.hermpac.co.nz/media/6287/hermpac_horizontal_rwd_g.jpg?width=1680&height=1000&mode=crop&bgcolor=ffffff&quality=80);
+
+        background-size: cover;
+
+        height: 200px;
+        width: 100%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        h1 {
+          color: hsl(180, 100%, 25.1%);
+          font-size: 50px;
+        }
+        p {
+          color: white;
+          font-size: 20px;
+          color: teal;
+          text-align: center;
+        }
+      }
+
+      .search-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 0;
+        // background-color: teal;
+        padding: 10px 0;
+        // outline: 1px solid gray;
+        input {
+          width: 60%;
+          height: 38px;
+          font-size: 16px;
+          padding: 0 20px;
+          border: none;
+          outline: 1px solid gray;
+          border-radius: 50px 0 0 50px;
+        }
+        img {
+          background-color: rgb(230, 230, 230);
+          height: 17.7px;
+          padding: 10px 30px;
+          border: 1px solid gray;
+          border-radius: 0 50px 50px 0;
+          cursor: pointer;
+        }
+      }
+
+      .filters {
+        width: 65%;
+        margin: auto;
+        display: flex;
+        gap: 20px;
+        .category {
+          display: flex;
+          align-items: center;
+          Form {
+            Select {
+              padding: 1px 10px;
+              border-radius: 50px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

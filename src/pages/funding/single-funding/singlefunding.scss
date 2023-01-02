@@ -1,0 +1,127 @@
+.main-container {
+  .align-cont {
+    display: flex;
+    align-items: center;
+    max-width: 1600px;
+    background-color: rgb(236, 231, 231);
+    margin: auto;
+    .container {
+      width: 90%;
+
+      display: flex;
+      margin: auto;
+      justify-content: space-around;
+      .details {
+        margin: 20px;
+        width: 60%;
+        h1 {
+          font-size: 40px;
+          margin: 10px 0;
+        }
+        hr {
+          border: none;
+          border-top: 3px solid teal;
+          margin-bottom: 10px;
+        }
+        .description {
+          font-size: 20px;
+          color: gray;
+        }
+        img {
+          width: 100%;
+          margin: 20px auto;
+        }
+        .fund-article {
+          width: 100%;
+        }
+      }
+      .fund-data {
+        background-color: white;
+        padding: 20px;
+        width: 350px;
+        height: fit-content;
+        margin: 100px 0;
+        border-radius: 10px;
+
+        hr {
+          margin: 10px 0;
+          border: none;
+          border-bottom: 1px solid rgb(236, 234, 234);
+        }
+        .progress {
+          p {
+            font-size: 20px;
+            font-weight: 500;
+            span {
+              color: teal;
+            }
+          }
+          input {
+            color: teal;
+          }
+        }
+        .d-container {
+          p {
+            font-size: 20px;
+            margin-bottom: 5px;
+          }
+          span {
+            font-size: 18px;
+            font-weight: 700;
+            color: teal;
+          }
+        }
+
+        button {
+          background-color: teal;
+          color: white;
+          width: 100%;
+          border: none;
+          padding: 8px;
+          font-size: 18px;
+          margin: 10px 0 20px 0;
+          border-radius: 5px;
+          cursor: pointer;
+          &:hover {
+            background-color: rgb(0, 54, 54);
+          }
+        }
+      }
+    }
+  }
+
+  .more-fund {
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .card {
+      margin-bottom: 50px;
+      text-align: center;
+      h1 {
+        color: hsl(180, 100%, 25.1%);
+        font-size: 50px;
+      }
+      hr {
+        border: none;
+        border-top: 5px solid hsl(180, 100%, 25.1%);
+        margin: 20px 45% 40px 45%;
+      }
+    }
+    button {
+      background-color: transparent;
+      color: teal;
+      width: 250px;
+      border: 1px solid teal;
+      padding: 8px;
+      font-size: 18px;
+
+      border-radius: 5px;
+      cursor: pointer;
+      &:hover {
+        background-color: teal;
+        color: white;
+      }
+    }
+  }
+}

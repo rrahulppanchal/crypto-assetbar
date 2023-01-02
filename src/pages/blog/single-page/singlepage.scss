@@ -1,0 +1,47 @@
+.single-blog {
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 80vh;
+    background-color: rgb(116, 116, 116);
+    button {
+      padding: 10px 40px;
+      border: none;
+      border-radius: 10px;
+      font-weight: 700;
+      background-color: goldenrod;
+      color: white;
+      font-size: 50px;
+    }
+    h1 {
+      color: white;
+      font-size: 45px;
+    }
+    span {
+      width: 50%;
+      color: white;
+      text-align: center;
+    }
+  }
+
+  .blog-content {
+    width: 50%;
+    margin: auto;
+
+    h1 {
+      font-size: 40px;
+      margin: 20px 0;
+    }
+
+    h2 {
+      font-size: 25px;
+      margin: 10px 0;
+    }
+    img {
+      width: 70%;
+      margin: 20px 0;
+    }
+  }
+}

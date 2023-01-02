@@ -1,0 +1,32 @@
+.foot {
+  max-width: 1600px;
+  margin: auto;
+  br {
+    padding: 10px;
+  }
+  .footer {
+    max-width: 1800px;
+    padding: 20px 0;
+    background-color: teal;
+    color: white;
+    text-align: center;
+    .main-footer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 25px;
+      margin-bottom: 10px;
+      span:hover {
+        cursor: pointer;
+        color: hsl(69, 94%, 69%);
+      }
+    }
+
+    p {
+      font-size: 14px;
+      color: white;
+      padding: 20px;
+      text-align: start;
+    }
+  }
+}
